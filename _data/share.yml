@@ -2,11 +2,11 @@
 # Icons from <https://fontawesome.com/>
 
 platforms:
-  - type: Twitter
+  #- type: Twitter
     # Corrigido: 'fa-square-x-twitter' -> 'fa-x-twitter'
-    icon: "fa-brands fa-x-twitter"
+   # icon: "fa-brands fa-x-twitter"
     # Mantive TITLE/URL; a entidade &amp; é correta dentro do YAML
-    link: "https://twitter.com/intent/tweet?text=TITLE&amp;url=URL"
+    #link: "https://twitter.com/intent/tweet?text=TITLE&amp;url=URL"
 
   - type: Facebook
     # Você já usava 'fab fa-facebook-square' (funciona). Se quiser o “logo plano”, pode usar 'fa-brands fa-facebook'
@@ -16,6 +16,10 @@ platforms:
   - type: Telegram
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&amp;text=TITLE"
+ 
+  - type: Linkedin
+    icon: "fab fa-linkedin"
+    link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
 
   # Exemplos opcionais (descomentando conforme necessidade):
 
