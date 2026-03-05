@@ -16,8 +16,8 @@ description: >-
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # SITE URL FINAL (sem barra no final)
-url: "https://danielrodrigues7.github.io"
-baseurl: "/bloog"
+url: "https://danielsrodrigues.blog"
+baseurl: ""
 
 github:
   username: DanielRodrigues7
