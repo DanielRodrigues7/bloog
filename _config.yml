@@ -92,8 +92,8 @@ comments:
 # Self-hosted static assets (deixe TRUE)
 assets:
   self_host:
-    enabled: true
-    env: production
+    enabled: false
+  
 
 pwa:
   enabled: true
