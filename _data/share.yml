@@ -1,50 +1,34 @@
-#  Sharing options at the bottom of the post.
-#  Icons from <https://fontawesome.com/>
+# Sharing options at the bottom of the post.
+# Icons from <https://fontawesome.com/>
 
 platforms:
   - type: Twitter
-    icon: "fa-brands fa-square-x-twitter"
-    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
+    # Corrigido: 'fa-square-x-twitter' -> 'fa-x-twitter'
+    icon: "fa-brands fa-x-twitter"
+    # Mantive TITLE/URL; a entidade &amp; é correta dentro do YAML
+    link: "https://twitter.com/intent/tweet?text=TITLE&amp;url=URL"
 
   - type: Facebook
+    # Você já usava 'fab fa-facebook-square' (funciona). Se quiser o “logo plano”, pode usar 'fa-brands fa-facebook'
     icon: "fab fa-facebook-square"
-    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&amp;u=URL"
 
   - type: Telegram
     icon: "fab fa-telegram"
-    link: "https://t.me/share/url?url=URL&text=TITLE"
+    link: "https://t.me/share/url?url=URL&amp;text=TITLE"
 
-  # Uncomment below if you need to.
-  #
+  # Exemplos opcionais (descomentando conforme necessidade):
+
   # - type: Linkedin
   #   icon: "fab fa-linkedin"
-  #   link: "https://www.linkedin.com/feed/?shareActive=true&shareUrl=URL"
-  #
-  # - type: Weibo
-  #   icon: "fab fa-weibo"
-  #   link: "https://service.weibo.com/share/share.php?title=TITLE&url=URL"
-  #
+  #   link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
+
+  # - type: Reddit
+  #   icon: "fa-brands fa-reddit"   # 'fa-square-reddit' pode não existir; 'fa-reddit' funciona
+  #   link: "https://www.reddit.com/submit?url=URL&amp;title=TITLE"
+
   # - type: Mastodon
   #   icon: "fa-brands fa-mastodon"
-  #   # See: https://github.com/justinribeiro/share-to-mastodon#properties
   #   instances:
   #     - label: mastodon.social
   #       link: "https://mastodon.social/"
-  #     - label: mastodon.online
-  #       link: "https://mastodon.online/"
-  #     - label: fosstodon.org
-  #       link: "https://fosstodon.org/"
-  #     - label: photog.social
-  #       link: "https://photog.social/"
-  #
-  # - type: Bluesky
-  #   icon: "fa-brands fa-bluesky"
-  #   link: "https://bsky.app/intent/compose?text=TITLE%20URL"
-  #
-  # - type: Reddit
-  #   icon: "fa-brands fa-square-reddit"
-  #   link: "https://www.reddit.com/submit?url=URL&title=TITLE"
-  #
-  # - type: Threads
-  #   icon: "fa-brands fa-square-threads"
-  #   link: "https://www.threads.net/intent/post?text=TITLE%20URL"
