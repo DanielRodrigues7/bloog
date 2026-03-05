@@ -17,7 +17,7 @@ description: >-
 
 # SITE URL FINAL (sem barra no final)
 url: "https://danielrodrigues7.github.io"
-baseurl: ""
+baseurl: "/bloog"
 
 github:
   username: DanielRodrigues7
